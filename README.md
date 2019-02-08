@@ -29,7 +29,6 @@ node server.js
 
 Server URL and PORT :- http://localhost:3000
 
-** Make sure node.js is installed.
 ** Copy required files and folders in a folder from where you run the server.
 
 ** Open Node.js command prompt and cd to folder where files are copied.
