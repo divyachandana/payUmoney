@@ -71,6 +71,6 @@ app.post('/response.html', function(req, res){
 	res.render(__dirname + '/response.html', {key: key,salt: salt,txnid: txnid,amount: amount, productinfo: productinfo, 
 	firstname: firstname, email: email, mihpayid : mihpayid, status: status,resphash: resphash,msg:msg});
 });
-app.listen(3000, function(){
-	console.log('Listening to port 3000')
+app.listen(3333, function(){
+	console.log('Listening to port 3333')
 });
